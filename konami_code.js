@@ -31,5 +31,5 @@ function compare(array) {
     }    
     alert('Congrats!')
   }
-  return 
+
 }
