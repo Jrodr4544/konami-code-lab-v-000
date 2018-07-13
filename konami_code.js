@@ -23,6 +23,7 @@ function init() {
 }
 
 function compare(array) {
+  var result;
   for (var i = 0; i < codes.length; i++) {
     
   }
