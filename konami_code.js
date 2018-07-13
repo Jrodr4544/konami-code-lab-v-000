@@ -18,7 +18,6 @@ function init() {
   event.addEventListener('keydown', function(event) {
     keysPressed.push(event.key)
     (keysPressed[0] === codes[0]) ? compare(keysPressed) : keysPressed.shift();
-  
   })
 }
 
