@@ -29,6 +29,7 @@ function compare(array) {
       array[i] === codes[i]
       i++
     }    
+    return
   }
   return 
 }
