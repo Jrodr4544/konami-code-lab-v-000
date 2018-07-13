@@ -14,5 +14,7 @@ const codes = [
 function init() {
   // your code here
   var event = document.body;
-  event.addEventListener
+  event.addEventListener.addEventListener('click', function(event) {
+    alert('I was clicked!')
+  })
 }
