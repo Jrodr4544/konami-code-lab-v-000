@@ -17,6 +17,7 @@ function init() {
   var keysPressed = [];
   event.addEventListener('keydown', function(event) {
     keysPressed.push(event.key)
+    (keysPressed[0] === codes[0]) ?
     (event.key === codes[0]) ? keysPressed.push(event.key) : null;
   })
 }
