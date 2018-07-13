@@ -30,6 +30,5 @@ function compare(array) {
       i++
     }    
   }
-
   return 
 }
