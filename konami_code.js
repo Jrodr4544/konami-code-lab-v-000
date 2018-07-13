@@ -15,6 +15,6 @@ function init() {
   // your code here
   var event = document.body;
   event.addEventListener('keydown', function(event) {
-    event.key === codes[0] 
+    event.key === codes[0] ? 
   })
 }
