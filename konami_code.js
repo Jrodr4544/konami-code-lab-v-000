@@ -16,7 +16,7 @@ function init() {
   var page = document.body;
   var keysPressed = [];
   page.addEventListener('keydown', function(event) {
-    keysPressed.push(event.key)
+    keysPressed.push(event.key);
     (keysPressed[0] === codes[0]) ? compare(keysPressed) : keysPressed.shift();
   })
 }
