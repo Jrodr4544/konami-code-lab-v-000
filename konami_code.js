@@ -21,3 +21,5 @@ function init() {
   
   })
 }
+
+function compare(array)
