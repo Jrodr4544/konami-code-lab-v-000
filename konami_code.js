@@ -23,5 +23,7 @@ function init() {
 }
 
 function compare(array) {
-  for (var i = 0; i < codes.length; i++)
+  for (var i = 0; i < codes.length; i++) {
+    
+  }
 }
