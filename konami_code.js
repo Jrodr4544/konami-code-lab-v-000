@@ -15,7 +15,7 @@ function init() {
   // your code here
   var page = document.body;
   var keysPressed = [];
-  event.addEventListener('keydown', function(event) {
+  page.addEventListener('keydown', function(event) {
     keysPressed.push(event.key)
     (keysPressed[0] === codes[0]) ? compare(keysPressed) : keysPressed.shift();
   })
