@@ -14,5 +14,5 @@ const codes = [
 function init() {
   // your code here
   var event = document.body;
-  
+  event.addEventListener
 }
