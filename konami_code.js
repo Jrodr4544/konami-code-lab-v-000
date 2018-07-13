@@ -13,7 +13,7 @@ const codes = [
 
 function init() {
   // your code here
-  var event = document.body;
+  var page = document.body;
   var keysPressed = [];
   event.addEventListener('keydown', function(event) {
     keysPressed.push(event.key)
